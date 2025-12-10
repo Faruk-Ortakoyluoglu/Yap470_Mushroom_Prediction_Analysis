@@ -4,7 +4,7 @@ import joblib
 
 # Page Settings
 st.set_page_config(
-    page_title="Mushroom Analysis System hey",
+    page_title="Mushroom Analysis System",
     page_icon="🍄",
     layout="wide"  # Wider layout
 )
