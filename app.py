@@ -82,6 +82,7 @@ st.title("🍄 Professional Mushroom Analysis System")
 
 
 
+
 # Mappings (User Friendly Labels)
 feature_mappings = {
     'cap-shape': {
@@ -220,7 +221,6 @@ st.markdown("""
     </div>
 </div>
 """, unsafe_allow_html=True)
-
 
 st.markdown("""
     <div class="disclaimer-box">
