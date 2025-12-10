@@ -80,14 +80,6 @@ st.markdown("""
 # Title and Info
 st.title("🍄 Professional Mushroom Analysis System")
 
-st.markdown("""
-<div class="info-box">
-    <div class="info-icon">📊</div>
-    <div>
-        <strong>Model Accuracy:</strong> According to UCI ML standards, this model performs with <strong>0.1% error rate</strong>.
-    </div>
-</div>
-""", unsafe_allow_html=True)
 
 
 # Mappings (User Friendly Labels)
@@ -219,6 +211,16 @@ if model and train_data is not None:
 
 else:
     st.error("Required files (model or dataset) not found.")
+
+st.markdown("""
+<div class="info-box">
+    <div class="info-icon">📊</div>
+    <div>
+        <strong>Model Accuracy:</strong> According to UCI ML standards, this model performs with <strong>0.1% error rate</strong>.
+    </div>
+</div>
+""", unsafe_allow_html=True)
+
 
 st.markdown("""
     <div class="disclaimer-box">
