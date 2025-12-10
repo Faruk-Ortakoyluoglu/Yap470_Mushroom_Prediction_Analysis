@@ -1,6 +1,12 @@
 
 
 # YAP470 – Mantar Analizi Projesi
+----------------------------------------------------------
+## 🍄 Mushroom Predictor – Live Demo
+Streamlit app for predicting mushroom edibility using ML.
+
+🔗 Live App: https://mushroom-predictor-ml.streamlit.app/
+----------------------------------------------------------
 
 Bu proje, mantar veri seti üzerinde veri analizi ve makine öğrenimi modelleri geliştirmek için hazırlanmış bir Jupyter Notebook projesidir. Proje; pandas, numpy, seaborn, matplotlib, plotly ve scikit-learn kütüphanelerini kullanır. Tüm çalışma izole bir virtual environment (venv) üzerinde gerçekleştirilir.
 
